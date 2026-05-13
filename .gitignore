@@ -1,0 +1,71 @@
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# Python / FastAPI
+# =========================
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# JetBrains / Android Studio
+# =========================
+.idea/
+
+# =========================
+# Flutter / Dart
+# =========================
+.dart_tool/
+.packages
+.pub/
+build/
+
+# Flutter generated
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# =========================
+# Android
+# =========================
+**/android/.gradle
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+**/android/local.properties
+
+# =========================
+# iOS / macOS
+# =========================
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/macos/Pods/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Coverage
+# =========================
+coverage/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
